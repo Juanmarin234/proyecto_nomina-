@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 4.0)
+project(proyectonomina)
+
+set(CMAKE_CXX_STANDARD 20)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(proyectonomina
+        main.cpp
+        Empleado.cpp
+        Empleado.h
+        DesarrolladorJunior.cpp
+        DesarrolladorJunior.h
+        DesarrolladorSenior.cpp
+        DesarrolladorSenior.h
+        LiderTecnico.cpp
+        LiderTecnico.h
+        Tester.cpp
+        Tester.h
+)
